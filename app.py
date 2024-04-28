@@ -21,5 +21,5 @@ def read_item(n: int):
     if is_fibonacci(n):
         return {"Number": n, "isFibonacci": True, "Next Fibonacci": next_fibonacci(n)}
     else:
-        return {"Number": n, "isFibonacci": False, "Message": "Not a Fibonacci number"}
+        return {"Number": n, "isFibonacci": False, "Message ": "Not a Fibonacci number"}
 
